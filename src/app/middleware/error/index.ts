@@ -1,7 +1,8 @@
 import { NextFunction, Request, Response } from "express";
 
 export class ErrorResponse extends Error {
-  statusCode: number;
+  statusCode?: number;
+
   constructor(statusCode: number, message: string) {
     super(message);
     this.statusCode = statusCode;

@@ -2,6 +2,7 @@ import express from "express";
 import cors from "cors";
 import routes from "../../app/routes";
 import { errorHandler } from "../../app/middleware/error";
+import { notFoundHandler } from "../../app/middleware/not_found";
 
 const app = express();
 
@@ -17,5 +18,9 @@ app.use("/api/v1", routes);
 
 //handle errors
 app.use(errorHandler);
+
+//404-not-found handler
+
+app.use(notFoundHandler);
 
 export default app;
