@@ -6,6 +6,7 @@
   "author": "RTW",
   "license": "MIT",
   "scripts": {
+    "setup": "yarn install",
     "dev": "nodemon src/app.ts"
   },
   "dependencies": {
