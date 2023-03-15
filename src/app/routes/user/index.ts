@@ -1,5 +1,4 @@
 import { Router } from "express";
-import { register } from "../../controllers/firebase_user";
 import {
   createUser,
   deleteUser,
@@ -19,7 +18,5 @@ router.post("/user/create", createUser);
 router.put("/user/:id", updateUser);
 router.delete("/user/:id", deleteUser);
 router.post("/user/login", login);
-
-router.post("/register", register);
 
 export default router;
