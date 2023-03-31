@@ -1,5 +1,5 @@
 # NodeJS-Skeleton
-NodeJS-Skeleton is a RESTful API skeleton for a Node.js project using TypeScript. It can be implemented with any web server framework or even  any user interface. The skeleton contains some essential files and folders that can be used as a starting point for building a web application.
+NodeJS-Skeleton is a RESTful API skeleton for a Node.js project using TypeScript and Prism ORM. It can be implemented with any web server framework or even  any user interface. The skeleton contains some essential files and folders that can be used as a starting point for building a web application.
 
 ## Installation 
 To use this skeleton, you'll need to have Node.js and yarn (Yet Another Resource Negotiator) installed on your system. Once you have those, you can follow these steps:
