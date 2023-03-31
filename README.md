@@ -12,6 +12,6 @@ To use this skeleton, you'll need to have Node.js and yarn (Yet Another Resource
   ```
 4. Run Project Using this command:
 
-   ```
+  ```
    yarn dev
-   ```
+  ```
