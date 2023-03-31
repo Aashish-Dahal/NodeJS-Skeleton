@@ -6,12 +6,17 @@ To use this skeleton, you'll need to have Node.js and yarn (Yet Another Resource
 
 1. Clone this repository to your local machine using git clone [https://github.com/Aashish-Dahal/NodeJS-Skeleton.git](https://github.com/Aashish-Dahal/NodeJS-Skeleton)
 2. Navigate into the project directory with cd NodeJS-Skeleton
-3. Install the project dependencies with this command:
+3. Install the project dependencies with the command:
   ```
   yarn setup 
   ```
-4. Run Project Using this command:
+4. Run Project Using the command:
 
   ```
   yarn dev
   ```
+  
+## Project Structure
+The project structure as follows:
+----src/ 
+   
